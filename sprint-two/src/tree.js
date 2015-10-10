@@ -20,7 +20,7 @@ treeMethods.addChild = function(value) {
   this.children.push(Tree(value));
 };
 
-treeMethods.contains = function(target) {
+treeMethods.contains = function(target) { // target = 5
   if (this.value === target) {
     return true;
   } else {
